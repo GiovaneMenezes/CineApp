@@ -6,11 +6,10 @@ App feeded with content from The Movie Database (TMDb)
 - Before build, put your TMDB API Key (https://developers.themoviedb.org/3) in the "Suporting Files -> TheMovieDBApiKey.plist". Otherise, the app will crash
 
 # Screenshots
-
 <img src="./screenshots/screenshot1.png" alt="drawing" width="200"/>
-
-<img src="./screenshots/screenshot1.png" alt="drawing" width="200"/>
+_upcoming movies screen_
 <img src="./screenshots/screenshot2.png" alt="drawing" width="200"/>
+_movie details screen_
 
 
 # Third-party libraries
