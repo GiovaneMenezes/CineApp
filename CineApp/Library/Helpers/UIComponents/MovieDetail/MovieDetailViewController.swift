@@ -40,7 +40,7 @@ class MovieDetailViewController: UIViewController {
         let posterURL = URL(string: "\(AppUrl.image.rawValue)\(posterPath)")
         posterImageView.kf.setImage(with: posterURL, placeholder: placeholderImage, options: [.transition(.fade(0.3))])
         titleLabel.text = model.title
-        releaseDateLabel.text = model.releaseDate
+        releaseDateLabel.text = "Release on " + (model.releaseDate ?? "-")
         overviewText.text = model.overview
         overviewText.contentOffset = .zero
     }

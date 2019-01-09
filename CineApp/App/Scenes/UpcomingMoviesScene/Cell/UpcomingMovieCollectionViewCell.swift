@@ -20,7 +20,7 @@ class UpcomingMovieCollectionViewCell: UICollectionViewCell {
         DispatchQueue.main.async {
             self.titleLabel.text = model.title
             self.genreLabel.text = model.genre
-            self.releaseDateLabel.text = model.releaseDate
+            self.releaseDateLabel.text = "Release on " + model.releaseDate
             let urlString = "\(AppUrl.image.rawValue)\(model.backdropPath)"
             self.backdropImage.kf.setImage(with: URL(string: urlString), placeholder: UIImage(named: "backDropPlaceholder"), options: [.transition(.fade(0.3))])
         }
