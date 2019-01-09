@@ -7,6 +7,8 @@ App feeded with content from The Movie Database (TMDb)
 
 # Screenshots
 
+<img src="./screenshots/screenshot1.png" alt="drawing" width="200"/>
+
 ![Upcoming Movies](./screenshots/screenshot1.png)
 ![Movie Detail](./screenshots/screenshot2.png)
 
