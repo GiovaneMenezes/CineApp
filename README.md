@@ -7,9 +7,8 @@ App feeded with content from The Movie Database (TMDb)
 
 # Screenshots
 <img src="./screenshots/screenshot1.png" alt="drawing" width="200"/>
-_upcoming movies screen_
+
 <img src="./screenshots/screenshot2.png" alt="drawing" width="200"/>
-_movie details screen_
 
 
 # Third-party libraries
