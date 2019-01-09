@@ -7,5 +7,6 @@ target 'CineApp' do
 
   # Pods for CineApp
   pod 'Moya/RxSwift', '~> 12.0'
+  pod 'Kingfisher', '~> 4.0'
 
 end
